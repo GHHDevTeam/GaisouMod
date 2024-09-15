@@ -11,12 +11,15 @@ public class GaisouModFabric implements ModInitializer {
 
     @Override
     public void onInitialize() {
-        if (FabricLoader.getInstance().isModLoaded("mcpitanlib")) {
+        boolean 有効なMCPitanLib = FabricLoader.getInstance().isModLoaded("mcpitanlib");
+        boolean 有効なPffLoader = FabricLoader.getInstance().isModLoaded("pffloader");
+
+        if (有効なMCPitanLib) {
             new MPLGaisouMod();
             return;
         }
 
-        if (FabricLoader.getInstance().isModLoaded("pffloader")) {
+        if (有効なPffLoader) {
             PffGaisouMod.init();
             return;
         }
