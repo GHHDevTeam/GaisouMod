@@ -7,11 +7,11 @@ import net.pitan76.mcpitanlib.api.CommonModInitializer;
 import net.pitan76.mcpitanlib.api.registry.v2.CompatRegistryV2;
 import net.pitan76.mcpitanlib.api.util.CompatIdentifier;
 
-public class GaisouMod extends CommonModInitializer {
+public class MPLGaisouMod extends CommonModInitializer {
     public static final String MOD_ID = "gaisoumod";
     public static final String MOD_NAME = "外装MOD";
 
-    public static GaisouMod INSTANCE;
+    public static MPLGaisouMod INSTANCE;
     public static CompatRegistryV2 registry;
 
     @Override

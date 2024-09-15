@@ -6,8 +6,8 @@ import net.pitan76.mcpitanlib.api.item.CompatibleItemSettings;
 import net.pitan76.mcpitanlib.api.registry.result.RegistryResult;
 import net.pitan76.mcpitanlib.api.util.ItemUtil;
 
-import static io.github.ghhdevteam.gaisoumod.mpl.GaisouMod._id;
-import static io.github.ghhdevteam.gaisoumod.mpl.GaisouMod.registry;
+import static io.github.ghhdevteam.gaisoumod.mpl.MPLGaisouMod._id;
+import static io.github.ghhdevteam.gaisoumod.mpl.MPLGaisouMod.registry;
 
 public class Items {
 

@@ -3,8 +3,8 @@ package io.github.ghhdevteam.gaisoumod.mpl.item;
 import net.pitan76.mcpitanlib.api.item.CreativeTabBuilder;
 import net.pitan76.mcpitanlib.api.util.ItemStackUtil;
 
-import static io.github.ghhdevteam.gaisoumod.mpl.GaisouMod._id;
-import static io.github.ghhdevteam.gaisoumod.mpl.GaisouMod.registry;
+import static io.github.ghhdevteam.gaisoumod.mpl.MPLGaisouMod._id;
+import static io.github.ghhdevteam.gaisoumod.mpl.MPLGaisouMod.registry;
 
 public class ItemGroups {
 

@@ -6,8 +6,8 @@ import net.pitan76.mcpitanlib.api.block.CompatibleMaterial;
 import net.pitan76.mcpitanlib.api.block.ExtendBlock;
 import net.pitan76.mcpitanlib.api.registry.result.RegistryResult;
 
-import static io.github.ghhdevteam.gaisoumod.mpl.GaisouMod._id;
-import static io.github.ghhdevteam.gaisoumod.mpl.GaisouMod.registry;
+import static io.github.ghhdevteam.gaisoumod.mpl.MPLGaisouMod._id;
+import static io.github.ghhdevteam.gaisoumod.mpl.MPLGaisouMod.registry;
 
 public class Blocks {
 
