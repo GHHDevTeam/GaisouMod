@@ -8,16 +8,17 @@ import net.pitan76.mcpitanlib.api.registry.v2.CompatRegistryV2;
 import net.pitan76.mcpitanlib.api.util.CompatIdentifier;
 
 public class MPLGaisouMod extends CommonModInitializer {
-    public static final String MOD_ID = "gaisoumod";
-    public static final String MOD_NAME = "外装MOD";
+    public static final String もでぃど = "gaisoumod";
+    public static final String おなまえ = "外装MOD";
 
-    public static MPLGaisouMod INSTANCE;
-    public static CompatRegistryV2 registry;
+    public static MPLGaisouMod INSTA;
+    public static CompatRegistryV2 mejaRegi;
 
     @Override
     public void init() {
-        INSTANCE = this;
-        registry = super.registry;
+        // かかうじゃ
+        INSTA = this;
+        mejaRegi = super.registry;
 
         ItemGroups.init();
         Blocks.init();
@@ -30,16 +31,16 @@ public class MPLGaisouMod extends CommonModInitializer {
      * @return The id
      */
     public static CompatIdentifier _id(String path) {
-        return CompatIdentifier.of(MOD_ID, path);
+        return CompatIdentifier.of(もでぃど, path);
     }
 
     @Override
     public String getId() {
-        return MOD_ID;
+        return もでぃど;
     }
 
     @Override
     public String getName() {
-        return MOD_NAME;
+        return おなまえ;
     }
 }
