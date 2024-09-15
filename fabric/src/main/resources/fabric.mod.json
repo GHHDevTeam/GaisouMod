@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "${mod_id}",
+  "version": "${version}",
+  "name": "${mod_name}",
+  "description": "",
+  "authors": [
+    "Pitan"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/gaisoumod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "io.github.ghhdevteam.gaisoumod.fabric.GaisouModFabric"
+    ]
+  },
+  "mixins": [
+    "gaisoumod.mixins.json",
+    "gaisoumod-common.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": "*",
+    "minecraft": ">=1.17",
+    "mcpitanlib": "*"
+  }
+}

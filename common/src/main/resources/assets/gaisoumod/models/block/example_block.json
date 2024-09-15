@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "particle": "gaisoumod:block/example_block",
+    "down": "gaisoumod:block/example_block",
+    "up": "gaisoumod:block/example_block",
+    "north": "gaisoumod:block/example_block",
+    "east": "gaisoumod:block/example_block",
+    "south": "gaisoumod:block/example_block",
+    "west": "gaisoumod:block/example_block"
+  }
+}
