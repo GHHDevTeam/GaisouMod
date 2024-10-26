@@ -7,7 +7,7 @@ import net.pitan76.mcpitanlib.api.registry.result.RegistryResult;
 import net.pitan76.mcpitanlib.api.util.ItemUtil;
 
 import static io.github.ghhdevteam.gaisoumod.mpl.MPLGaisouMod._id;
-import static io.github.ghhdevteam.gaisoumod.mpl.MPLGaisouMod.registry;
+import static io.github.ghhdevteam.gaisoumod.mpl.MPLGaisouMod.mejaRegi;
 
 public class Items {
 
@@ -18,7 +18,7 @@ public class Items {
     public static RegistryResult<Item> EXAMPLE_BLOCK;
 
     public static void init() {
-        EXAMPLE_ITEM = registry.registerItem(_id("example_item"), () -> new ExampleItem(STANDARD_ITEM_SETTINGS));
-        EXAMPLE_BLOCK = registry.registerItem(_id("example_block"), () -> ItemUtil.ofBlock(Blocks.EXAMPLE_BLOCK.getOrNull(), STANDARD_ITEM_SETTINGS));
+        EXAMPLE_ITEM = mejaRegi.registerItem(_id("example_item"), () -> new ExampleItem(STANDARD_ITEM_SETTINGS));
+        EXAMPLE_BLOCK = mejaRegi.registerItem(_id("example_block"), () -> ItemUtil.ofBlock(Blocks.EXAMPLE_BLOCK.getOrNull(), STANDARD_ITEM_SETTINGS));
     }
 }

@@ -7,13 +7,13 @@ import net.pitan76.mcpitanlib.api.block.ExtendBlock;
 import net.pitan76.mcpitanlib.api.registry.result.RegistryResult;
 
 import static io.github.ghhdevteam.gaisoumod.mpl.MPLGaisouMod._id;
-import static io.github.ghhdevteam.gaisoumod.mpl.MPLGaisouMod.registry;
+import static io.github.ghhdevteam.gaisoumod.mpl.MPLGaisouMod.mejaRegi;
 
 public class Blocks {
 
     public static RegistryResult<Block> EXAMPLE_BLOCK;
 
     public static void init() {
-        EXAMPLE_BLOCK = registry.registerBlock(_id("example_block"), () -> new ExtendBlock(CompatibleBlockSettings.of(CompatibleMaterial.STONE)));
+        EXAMPLE_BLOCK = mejaRegi.registerBlock(_id("example_block"), () -> new ExtendBlock(CompatibleBlockSettings.of(CompatibleMaterial.STONE)));
     }
 }

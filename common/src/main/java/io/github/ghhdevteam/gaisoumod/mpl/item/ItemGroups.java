@@ -4,7 +4,7 @@ import net.pitan76.mcpitanlib.api.item.CreativeTabBuilder;
 import net.pitan76.mcpitanlib.api.util.ItemStackUtil;
 
 import static io.github.ghhdevteam.gaisoumod.mpl.MPLGaisouMod._id;
-import static io.github.ghhdevteam.gaisoumod.mpl.MPLGaisouMod.registry;
+import static io.github.ghhdevteam.gaisoumod.mpl.MPLGaisouMod.mejaRegi;
 
 public class ItemGroups {
 
@@ -12,6 +12,6 @@ public class ItemGroups {
             .setIcon(() -> ItemStackUtil.create(Items.EXAMPLE_ITEM.get()));
 
     public static void init() {
-        registry.registerItemGroup(EXAMPLE_ITEMS);
+        mejaRegi.registerItemGroup(EXAMPLE_ITEMS);
     }
 }
